@@ -62,8 +62,7 @@ def templater(slug):
     if len(client) > 0 :
         return render_template('test/client.html', client=client[0])
     else :
-        return redirect(url_for('form'))
+        return redirect(url_for('formulaire'))
 
 
-
-# flask run --reload
+# flask run --reload --host=0.0.0.0
