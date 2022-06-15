@@ -21,7 +21,7 @@ Projet Example
 @app.route("/")
 def test_template():
     context = {
-    'premiere_variable':'Yeehaaa',
+    'premiere_variable':'ACI CyB3rFuN',
     'seconde_variable': 'PopopoooOOoo'
     }
     return render_template('test/index.html', context=context)
